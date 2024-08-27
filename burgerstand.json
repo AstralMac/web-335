@@ -1,0 +1,25 @@
+{
+    "customer": {
+      "_id": "cx1",
+      "firstName":"Peter",
+      "lastName": "griffin",
+      "orders": [
+        {
+          "_id": "burger1",
+          "burgerName": " Bacon Cheese Burger",
+          "price": 6.99
+        },
+        {
+          "_id": "burger2",
+          "burgerName": "Double Cheese Burger",
+          "price": 5.99
+        },
+        {
+            "_id": "burger3",
+            "burgerName": " Double Bacon Cheese Burger",
+            "price": 7.99
+          }
+      ]
+    }
+  }
+  
