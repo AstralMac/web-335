@@ -1,0 +1,36 @@
+{
+    "viewer": {
+        "_id" : "viewer1",
+        "firstName" :"Astral",
+        "lastName":"Mac",
+        "moviesWatched": [
+            {
+                "movieId" : "movie1",
+                "movieName" : "Deadpool",
+                "movieGenre" : "Action-Comedy",
+                "rating" : {
+                    "_id" : "rating1",
+                    "ratingGiven": 10
+                }
+            },
+            {
+                "movieId" : "movie2",
+                "movieName" : "Jack Reacher",
+                "movieGenre" : "Action",
+                "rating" : {
+                    "_id" : "rating2",
+                    "ratingGiven": 7
+                }
+            },
+            {
+                "movieId" : "movie3",
+                "movieName" : "Lord of the Rings",
+                "movieGenre" : "Action",
+                "rating" : {
+                    "_id" : "rating3",
+                    "ratingGiven": 8
+                }
+            }
+        ]  
+    }
+}
