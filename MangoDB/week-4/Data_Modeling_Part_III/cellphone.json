@@ -10,9 +10,7 @@
           "deviceName": "iPad gen3",
           "deviceType": "tablet",
           "charger": {
-            "_id": "charger1",
-            "chargerType": "Lightning",
-            "voltage": 5
+            "_id": "charger1"
           }
         },
         {
@@ -20,9 +18,7 @@
           "deviceName": "iPhone 12",
           "deviceType": "Smartphone",
           "charger": {
-            "_id": "charger1",
-            "chargerType": "Lightning",
-            "voltage": 5
+            "_id": "charger1"
           }
         },
         {
@@ -30,9 +26,7 @@
           "deviceName" : "Cannon DLSR digital Camera",
           "deviceType" : "Digital Camera",
           "charger" : {
-            "_id" : "charger2",
-            "chargerType" : "Micro USB",
-            "voltage" : 9
+            "_id" : "charger2"
           }
         }
       ]
