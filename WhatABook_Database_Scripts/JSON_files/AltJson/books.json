@@ -1,0 +1,14 @@
+{
+  "_id": ObjectId(),
+  "title": "Book Title",
+  "author": {
+    "authorId": ObjectId(),
+    "firstName": "Author",
+    "lastName": "Name"
+  },
+  "genre": {
+    "genreId": ObjectId(),
+    "genreName": "Genre Name"
+  },
+  "price": 19.99
+}

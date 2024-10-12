@@ -1,0 +1,22 @@
+{
+  "_id": ObjectId(),
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "orders": [
+    {
+      "orderId": ObjectId(),
+      "orderDate": ISODate("2024-04-15T00:00:00Z"),
+      "books": [
+        {
+          "bookId": ObjectId(),
+          "title": "Book Title",
+          "author": "Author Name",
+          "genre": "Genre Name",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

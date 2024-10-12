@@ -1,0 +1,17 @@
+{
+  "_id": "ObjectId('64ff23d9e1a23c4a3456')",
+  "firstName": "John",
+  "lastName": "Doe",
+  "wishlist": [
+    {
+      "bookId": "ObjectId('64ff23d9e1a23c4a234b')",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "bookId": "ObjectId('64ff23d9e1a23c4b1234')",
+      "title": "1984",
+      "author": "George Orwell"
+    }
+  ]
+}

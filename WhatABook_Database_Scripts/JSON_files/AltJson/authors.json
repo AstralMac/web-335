@@ -1,0 +1,6 @@
+{
+  "_id": ObjectId(),
+  "firstName": "Author",
+  "lastName": "Name",
+  "books": [ObjectId(), ObjectId()]
+}
