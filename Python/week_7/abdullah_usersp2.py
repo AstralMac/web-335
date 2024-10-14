@@ -1,19 +1,18 @@
 """
-Title:
-Author:
-Date:
-Description
+Title: abdullah_usersp2.py
+Author: Malcolm Abdullah
+Date: 09-29-2024
+Description: Week 7 python program
 """
 
 from pymongo import MongoClient
 import datetime
-import certifi
 
 def main():
 #Establish a connection to the Mongo Database
    try: 
       connection_string = ("mongodb+srv://web335_user:Bellevue2025@bellevueuniversity.swhfl.mongodb.net/web335db?retryWrites=true&w=majority")
-      client = MongoClient(connection_string, tlsCAFile=certifi.where())
+      client = MongoClient(connection_string, tls= True)
       db = client['web335DB']
       print("Successfully connected to the database.\n")
    except Exception as e:
